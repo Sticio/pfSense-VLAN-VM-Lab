@@ -22,7 +22,6 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 **Network Segmentation:**
 - Created two VLANs (VLAN 10 and VLAN 20) using IEEE 802.1Q tagging
 - Configured pfSense as the central router/firewall managing all traffic
-- Each VLAN has its own subnet and DHCP server
 
 **Key Components:**
 - **Hypervisor:** VirtualBox
