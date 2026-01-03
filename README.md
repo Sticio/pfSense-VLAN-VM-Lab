@@ -20,7 +20,7 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 ## Technical Implementation
 
 **Network Segmentation:**
-- Created two isolated VLANs (VLAN 10 and VLAN 20) using IEEE 802.1Q tagging
+- Created two VLANs (VLAN 10 and VLAN 20) using IEEE 802.1Q tagging
 - Configured pfSense as the central router/firewall managing all traffic
 - Each VLAN has its own subnet and DHCP server
 
@@ -33,7 +33,6 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 - **Clients:** Ubuntu and Xubuntu VMs with VLAN tagging configured
 
 **What It Does:**
-- Traffic isolation between VLANs
 - Inter-VLAN routing controlled by firewall rules
 - Both VLANs have internet access through NAT
 - Demonstrates network segmentation security practices
