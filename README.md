@@ -26,10 +26,10 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 
 **Key Components:**
 - **Hypervisor:** VirtualBox
-- **Firewall:** pfSense 2.8.1
+- **Firewall:** pfSense 
 - **VLANs:** 
-  - VLAN 10 (10.10.10.0/24) - Workstation network
-  - VLAN 20 (10.20.20.0/24) - Server network
+  - VLAN 10 (10.10.10.0/24) 
+  - VLAN 20 (10.20.20.0/24) 
 - **Clients:** Ubuntu and Xubuntu VMs with VLAN tagging configured
 
 **What It Does:**
@@ -38,13 +38,6 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 - Both VLANs have internet access through NAT
 - Demonstrates network segmentation security practices
 
-## Testing & Validation
-
-Successfully tested:
-- ✅ DHCP assignment on both VLANs
-- ✅ Internet connectivity from both VLANs
-- ✅ Inter-VLAN communication (VLAN 10 ↔ VLAN 20)
-- ✅ Firewall rule enforcement
 
 ![Inter-VLAN Connectivity Test](inter-vlan-test.png)
 *Successful ping between VLAN 10 (10.10.10.100) and VLAN 20 (10.20.20.100)*
@@ -59,13 +52,7 @@ Successfully tested:
 - Linux network interface configuration
 - Virtualization and lab environment setup
 
-## Why This Matters
 
-This lab replicates how enterprises segment their networks for security and organization. By isolating workstations, servers, and other resources into separate VLANs, organizations can:
-- Limit lateral movement in case of security breach
-- Control traffic flow between network segments
-- Improve network performance by reducing broadcast domains
-- Implement granular access policies
 
 ---
 
