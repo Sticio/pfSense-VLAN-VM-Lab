@@ -34,7 +34,7 @@ Built a virtualized network environment with segmented VLANs to demonstrate ente
 **What It Does:**
 - Inter-VLAN routing controlled by firewall rules
 - Both VLANs have internet access through NAT
-- Demonstrates network segmentation security practices
+- Network segmentation security practices
 
 
 ![Inter-VLAN Connectivity Test](inter-vlan-test.png)
